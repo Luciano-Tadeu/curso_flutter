@@ -26,6 +26,14 @@ class  LoginPageState extends State <LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+
+                Container(
+                  width: 200,
+                  height: 200,
+                  child: Image.asset("Assets/images/Capivara.png")),
+
+                  Container(height: 10,),
+
                 TextField(
                   onChanged: (text){
                     email = text;
