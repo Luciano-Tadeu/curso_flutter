@@ -28,7 +28,7 @@ class AppWidget extends StatelessWidget {
             seedColor: AppColors.marromCapivara, // Cor base
             primary: AppColors.marromCapivara,
             secondary: AppColors.verdeReagente,
-            surface: AppColors.cremeSuave, // Cor de fundo de cartões/caixas
+            surface: AppColors.cremeSuave, // Cor de fundo de cartões/caixass
             onPrimary: AppColors.brancoPuro,
             
             brightness: AppController.instance.isDartTheme 
